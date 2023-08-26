@@ -26,10 +26,18 @@ const App = () => {
       <section className="padding-x py-10">
         <Services></Services>
       </section>
-      <section className="padding">spaialOffer</section>
-      <section className="padding">customerReviews</section>
-      <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
-      <section className="padding">footer</section>
+      <section className="padding">
+        <SpaialOffer></SpaialOffer>
+      </section>
+      <section className="padding bg-pale-blue">
+        <CustomerReview></CustomerReview>
+      </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Subscribe></Subscribe>
+      </section>
+      <section className=" bg-black">
+        <FooterSection></FooterSection>
+      </section>
     </main>
   );
 };
