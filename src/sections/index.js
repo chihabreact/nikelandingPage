@@ -3,12 +3,15 @@ import Services from "./services";
 import SpaialOffer from "./spaialOffer";
 import Subscribe from "./Subscribe";
 import SuperQality from "./superQality";
+import FooterSection from "./FooterSection";
+import HeroSection from "./HeroSection";
+import PopularProductSection from "./PopularProductSection";
 
 export {
-  Hero,
+  HeroSection,
   CustomerReview,
-  Footer,
-  PopularProducts,
+  PopularProductSection,
+  FooterSection,
   Services,
   SpaialOffer,
   Subscribe,
