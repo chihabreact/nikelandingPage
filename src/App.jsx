@@ -23,7 +23,9 @@ const App = () => {
       <section className="padding">
         <SuperQality></SuperQality>
       </section>
-      <section className="padding-x py-10">services</section>
+      <section className="padding-x py-10">
+        <Services></Services>
+      </section>
       <section className="padding">spaialOffer</section>
       <section className="padding">customerReviews</section>
       <section className="padding-x sm:py-32 py-16 w-full">Subscribe</section>
